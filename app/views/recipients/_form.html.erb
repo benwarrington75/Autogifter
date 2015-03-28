@@ -1,0 +1,21 @@
+<%= simple_form_for(@recipient) do |f| %>
+  <%= f.error_notification %>
+
+
+
+
+  <div class="form-inputs">
+    <%= f.input :name %>
+    <%= f.input :relationship, collection: ['Wife', 'Mother', 'Husband', 'Boyfriend', 'Girlfriend', 'Father'] %>
+    <%= f.input :street_address %>
+    <%= f.input :suburb %>
+    <%= f.input :state %>
+    <%= f.input :postcode %>
+    <%= f.input :country %>
+  
+  </div>
+  
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>

@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: ddo21j0wh
+  api_key: '935179461683745'
+  api_secret: IqdWuZW-uA6s5-FBdxSCi2At1kY
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: ddo21j0wh
+  api_key: '935179461683745'
+  api_secret: IqdWuZW-uA6s5-FBdxSCi2At1kY
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: ddo21j0wh
+  api_key: '935179461683745'
+  api_secret: IqdWuZW-uA6s5-FBdxSCi2At1kY
+  enhance_image_tag: true
+  static_image_support: false
